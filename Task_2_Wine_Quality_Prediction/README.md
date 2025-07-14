@@ -1,30 +1,47 @@
-
 # 🍷 Task 2: Wine Quality Prediction
 
 This is Task 2 of the **Oasis Infobyte Internship Program (July 2025)**.  
-We used machine learning to predict the quality of red wine based on physicochemical properties.
+We used machine learning to predict the quality of red wine based on its physicochemical properties.
 
 ## 📊 Dataset
-- Source: UCI ML Repository
-- Features: fixed acidity, volatile acidity, citric acid, residual sugar, pH, alcohol, etc.
-- Target: Quality (scale of 0–10)
 
-## 🔧 Tools & Libraries
+- 📁 **Source**: [Red Wine Quality — Cortez et al. (2009)](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009)
+- 🧪 **Type**: Regression/Classification
+- 🎯 **Target**: `quality` (score between 0–10)
+- 📌 **Features**:
+  - Fixed acidity
+  - Volatile acidity
+  - Citric acid
+  - Residual sugar
+  - Chlorides
+  - Free sulfur dioxide
+  - Total sulfur dioxide
+  - Density
+  - pH
+  - Sulphates
+  - Alcohol
+
+## ⚙️ Tools & Libraries Used
+
 - Python
-- pandas, seaborn, matplotlib
-- scikit-learn (Logistic Regression, Random Forest, Decision Tree)
+- pandas, numpy
+- seaborn, matplotlib
+- scikit-learn (Logistic Regression, Decision Tree, Random Forest)
 
-## ✅ Evaluation
+## ✅ Evaluation Metrics
+
 - Accuracy
+- F1 Score
 - Confusion Matrix
 - Classification Report
 
-## 🧠 Best Model
-Random Forest gave the highest accuracy among all models tested.
+## 🧠 Best Performing Model
+
+Among all the models tested, the **Random Forest Classifier** gave the best accuracy.
 
 ---
 
-📌 Submitted under: Oasis Infobyte Internship  
-🗓️ Month: July 2025  
-👨‍💻 By: **Vikash Gupta**
-
+📌 **Submitted under**: Oasis Infobyte Internship  
+📅 **Month**: July 2025  
+👨‍💻 **By**: Vikash Gupta  
+📁 **Dataset Used**: [Kaggle Dataset Link](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009)
